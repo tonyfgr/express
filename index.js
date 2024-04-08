@@ -1,7 +1,7 @@
 ﻿const express = require('express'); 
 const app = express();
 
-const PORT = 5000;
+const PORT = 9000;
 // Ruta principal
 app.get('/', (req, res) => {
     res.send('Bienvenido a mi aplicación Express');
