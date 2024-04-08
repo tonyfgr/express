@@ -17,6 +17,6 @@ app.get('/productos', (req, res) => {
     const productos = ['Producto 1: camisa', 'Producto 2: polo', 'Producto 3: pantalon']; 
     res.json(productos);
 });
-app.listen(PORT, ()=> {
-    console.log('La aplicación está corriendo en http://localhost:${PORT}');
+app.listen(PORT, () => {
+    console.log(`La aplicación está corriendo en http://localhost:${PORT}`);
 });
